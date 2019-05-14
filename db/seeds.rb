@@ -13,3 +13,6 @@ Place.create(continent: 'Asia', country: 'Japan', state: 'Tokyo', city: 'Kanto',
 Place.create(continent: 'Australia', country: 'Australia', state: 'Northern Territoty', city: 'Yulara', notes: 'Ayer\'s Rock is a tourist trap.', user_id: 2)
 Place.create(continent: 'Europe', country: 'France', state: 'Ile de France', city: 'Paris', notes: 'They are as rude as you have heard!', user_id: 2)
 Place.create(continent: 'North America', country: 'United States', state: 'California', city: 'San Francisco', notes: 'If you like dirty streets, visit here!', user_id: 2)
+
+User.create(username: 'Rick_Steves', email: 'ricksteves@ricksteves.com', password: '1234')
+User.create(username: 'Rudy_Maxa', email: 'rudymaxa@rudymaxa.com', password: '1234') 

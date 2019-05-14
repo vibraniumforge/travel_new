@@ -6,11 +6,13 @@ The user can record a location with by its Continent, Country, State or Province
 
 It uses Ruby and Sinatra to generate web pages. It uses shotgun to run a local server.
 
-Two sample users: 
+Two sample users:
 Rick_Steves password=1234
 Rudy_Maxa password=1234
 
 To install, git clone from this address:
 https://github.com/vibraniumforge/travel_places.git
+
+To start, enter the directory and type"shotgun". Then, navigate to localhost:9393.
 
 It is licensed by the MIT License. https://opensource.org/licenses/MIT
