@@ -1,4 +1,6 @@
-ENV['SINATRA_ENV'] ||= "development"
+# frozen_string_literal: true
+
+ENV['SINATRA_ENV'] ||= 'development'
 
 require 'sinatra/flash'
 require 'bundler/setup'
@@ -6,8 +8,8 @@ require 'bundler/setup'
 Bundler.require(:default, ENV['SINATRA_ENV'])
 
 ActiveRecord::Base.establish_connection(
-  :adapter => "sqlite3",
-  :database => "db/#{ENV['SINATRA_ENV']}.sqlite"
+  adapter: 'sqlite3',
+  database: "db/#{ENV['SINATRA_ENV']}.sqlite"
 )
 
 require_all 'app'

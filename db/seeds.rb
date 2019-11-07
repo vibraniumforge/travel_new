@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 Place.create(continent: 'Asia', country: 'Cambodia', state: 'Siam Reap', city: 'Ankgor Wat', notes: 'This is a great place!', user_id: 1)
 Place.create(continent: 'Africa', country: 'Egypt', state: 'Cairo', city: 'Cairo', notes: 'The pyramids are great! All the tourists making stupid poses in front of them are not!!', user_id: 1)
-Place.create(continent: 'South America', country: 'Brazil', state: 'Rio de Janiero', city: 'Rio de Janiero', notes: 'This place has a lot of people that are hiding from the U.S. law enforcement.', user_id: 1 )
+Place.create(continent: 'South America', country: 'Brazil', state: 'Rio de Janiero', city: 'Rio de Janiero', notes: 'This place has a lot of people that are hiding from the U.S. law enforcement.', user_id: 1)
 Place.create(continent: 'Asia', country: 'China', state: 'Beijing', city: 'Beijing', notes: 'You can cut the air with a knife!', user_id: 1)
 Place.create(continent: 'Australia', country: 'Australia', state: 'New South Wales', city: 'Sydney', notes: 'The water DOES swirl down the sink the other way here.', user_id: 1)
 Place.create(continent: 'Europe', country: 'France', state: 'Gironde', city: 'Bordeaux', notes: 'I called this city "Boring." The mayor called me a McTourist!', user_id: 1)
@@ -15,4 +17,4 @@ Place.create(continent: 'Europe', country: 'France', state: 'Ile de France', cit
 Place.create(continent: 'North America', country: 'United States', state: 'California', city: 'San Francisco', notes: 'If you like dirty streets, visit here!', user_id: 2)
 
 User.create(username: 'Rick_Steves', email: 'ricksteves@ricksteves.com', password: '1234')
-User.create(username: 'Rudy_Maxa', email: 'rudymaxa@rudymaxa.com', password: '1234') 
+User.create(username: 'Rudy_Maxa', email: 'rudymaxa@rudymaxa.com', password: '1234')

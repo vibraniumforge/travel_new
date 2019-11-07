@@ -1,7 +1,7 @@
 <h1>Edit a Place</h1>
 <form method="POST" action="/places/<%= @place.id %>">
-  <input id="hidden" name="_method" type="hidden" value="patch"
-  <label for "continent">Continent: </label>
+  <input id="hidden" name="_method" type="hidden" value="patch">
+  <label for = "continent">Continent: </label>
   <select name="place[continent]" id="continent" value =" <%= @place.continent %> ">
     <option value="Europe">Europe</option>
     <option value="Asia">Asia</option>
@@ -13,16 +13,16 @@
     <option value="Antarctica">Antarctica</option>
   </select>
   <br>
-  <label for "country">Country: </label>
-  <input type="text" name="place[country]" id="country" value= "<%= @place.country %>"></input>
+  <label for = "country">Country: </label>
+  <input type="text" name="place[country]" id="country" value= "<%= @place.country %>">
   <br>
-  <label for "state">State: </label>
-  <input type="text" name="place[state]" id="state" value="<%= @place.state %> "></input>
+  <label for = "state">State: </label>
+  <input type="text" name="place[state]" id="state" value="<%= @place.state %> ">
   <br>
-  <label for "city">City: </label>
-  <input type="text" name="place[city]" id="city" value="<%= @place.city %>"></input>
+  <label for = "city">City: </label>
+  <input type="text" name="place[city]" id="city" value="<%= @place.city %>">
   <br>
-  <label for "notes">Notes: </label>
+  <label for = "notes">Notes: </label>
   <textarea type="text" name="place[notes]" id="notes" value=""><%= @place.notes %></textarea>
   <br>
   <input type="submit" id="submit" name="submit" value="submit">

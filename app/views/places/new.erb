@@ -1,6 +1,6 @@
 <h1>Create a Place</h1>
 <form method="POST" action="/places">
-  <label for "continent">Continent: </label>
+  <label for = "continent">Continent: </label>
   <select name="place[continent]" id="continent">
     <option value="Europe">Europe</option>
     <option value="Asia">Asia</option>
@@ -12,16 +12,16 @@
     <option value="Antarctica">Antarctica</option>
   </select>
   <br>
-  <label for "country">Country: </label>
+  <label for = "country">Country: </label>
   <input type="text" name="place[country]" id="country"/>
   <br>
-  <label for "state">State: </label>
+  <label for = "state">State: </label>
   <input type="text" name="place[state]" id="state"/>
   <br>
-  <label for "city">City: </label>
+  <label for = "city">City: </label>
   <input type="text" name="place[city]" id="city"/>
   <br>
-  <label for "notes">Notes: </label>
+  <label for = "notes">Notes: </label>
   <textarea type="text" name="place[notes]" id="notes"></textarea>
   <br>
   <input type="submit" id="submit" name="submit" value="submit">
